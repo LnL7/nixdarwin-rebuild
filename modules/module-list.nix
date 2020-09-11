@@ -25,6 +25,7 @@
   ./system/launchd.nix
   ./system/patches.nix
   ./system/shells.nix
+  ./system/sudo.nix
   ./system/version.nix
   ./time
   ./networking

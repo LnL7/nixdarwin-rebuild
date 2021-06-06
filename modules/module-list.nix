@@ -64,6 +64,7 @@
   ./programs/gnupg.nix
   ./programs/man.nix
   ./programs/info
+  ./programs/mas.nix
   ./programs/nix-index
   ./programs/ssh
   ./programs/tmux.nix

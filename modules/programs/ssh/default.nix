@@ -73,7 +73,7 @@ in
     };
   };
 
-  config = {
+  config = mkIf (builtins.length knownHosts > 0) {
 
     assertions = flip mapAttrsToList cfg.knownHosts (name: data: {
       assertion = (data.publicKey == null && data.publicKeyFile != null) ||
